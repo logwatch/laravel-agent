@@ -1,0 +1,8 @@
+{
+    "name": "logwatch/laravel-agent",
+    "description": "The logwatch agent for your Laravel applications.",
+    "type": "library",
+    "require": {
+      "illuminate/support": "5.5.*"
+    }
+}
