@@ -3,6 +3,15 @@
     "description": "The logwatch agent for your Laravel applications.",
     "type": "library",
     "require": {
-      "illuminate/support": "5.5.*"
+      "illuminate/support": "5.5.*",
+      "illuminate/http": "5.5.*",
+      "illuminate/container": "5.5.*",
+      "monolog/monolog": "~1.12",
+      "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Logwatch\\LaravelAgent\\": "src"
+        }
     }
 }
